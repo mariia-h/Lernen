@@ -32,7 +32,8 @@ def main():
     st.title("Lernfortschritt Analysis")
 
     # File upload
-    uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
+    #uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
+    uploaded_file = 1
 
     if uploaded_file is not None:
         # Load and preprocess data
