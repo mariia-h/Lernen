@@ -37,7 +37,8 @@ def main():
 
     if uploaded_file is not None:
         # Load and preprocess data
-        df = load_data(uploaded_file)
+        #df = load_data(uploaded_file)
+        df = load_data('Student_Performance.csv')
         df = preprocess_data(df)
 
         # Display the raw data
