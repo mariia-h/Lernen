@@ -10,6 +10,7 @@ def load_data(file):
     df = pd.read_csv(file)
     return df
 
+#new
 # Data preprocessing function
 def preprocess_data(df):
     # Annahme: Auswertung von Lernaufgaben basiert auf der durchschnittlichen Bewertung der Aufgaben
